@@ -1,0 +1,17 @@
+{
+  "name": "@meetup/web",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "echo 'web lint not configured yet'",
+    "test": "echo 'web tests not configured yet'",
+    "format": "echo 'web format not configured yet'"
+  },
+  "dependencies": {
+    "next": "15.0.0",
+    "react": "19.0.0-rc-65a56d0e-20241020",
+    "react-dom": "19.0.0-rc-65a56d0e-20241020"
+  }
+}
