@@ -1,0 +1,16 @@
+{
+  "name": "meetup",
+  "private": true,
+  "packageManager": "pnpm@9.12.0",
+  "scripts": {
+    "build": "pnpm -r build",
+    "dev:web": "pnpm --filter @meetup/web dev",
+    "dev:api": "pnpm --filter @meetup/api start:dev",
+    "lint": "pnpm -r lint",
+    "test": "pnpm -r test",
+    "format": "pnpm -r format"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  }
+}
